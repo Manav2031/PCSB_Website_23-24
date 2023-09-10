@@ -1,0 +1,17 @@
+.images img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.02);
+  transition: 0.4s ease;
+}
+
+.images img {
+  filter: grayscale(10%);
+  opacity: 0.5;
+  transition: 0.4s ease;
+}
+@media (max-width: 768px) {
+  .images img {
+    filter: grayscale(0%);
+  }
+}
