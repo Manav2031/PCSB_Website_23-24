@@ -10,4 +10,7 @@ export default defineConfig({
       overlay: false,
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1600
+  },
 });
