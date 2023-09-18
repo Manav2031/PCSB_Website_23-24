@@ -8,7 +8,7 @@ export default function Domain() {
         <div className="heading-text sm:text-8xl text-5xl font-bold">
           <div className="dom">
             <h1
-              className=" head text-white md:text-7xl text-5xl"
+              className=" head md:text-6xl text-4xl"
               data-text="&nbsp;DOMAINS&nbsp;"
             >
               &nbsp;DOMAINS &nbsp;
@@ -173,6 +173,29 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
+                  src="https://www.pictcsi.com/assets/cp.svg"
+                  alt="domain-img"
+                />
+              </i>
+              <h3>CODING CIRCLE</h3>
+            </div>
+            <div className="contenters">
+              <div className="heading">
+                <h2>CODING CIRCLE</h2>
+              </div>
+              <p>
+                Coding Circle is a collaborative community and intellectual
+                endeavor, typically conducted online or within a local group,
+                where enthusiasts come together to code in alignment with given
+                directives and challenges.
+              </p>
+            </div>
+          </div>
+          <div className="serviceBox">
+            <div className="icon">
+              <i className="fas fa-gamepad">
+                <img
+                  className="domain-img"
                   src="https://www.pictcsi.com/assets/cloudcomputing.svg"
                   alt="domain-img"
                 />
@@ -281,15 +304,15 @@ export default function Domain() {
               <i className="fas fa-video">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/contenters.svg"
+                  src="https://www.pictcsi.com/assets/content.svg"
                   alt="domain-img"
                 />
               </i>
-              <h3>Content</h3>
+              <h3>CONTENT</h3>
             </div>
             <div className="contenters">
               <div className="heading">
-                <h2>content</h2>
+                <h2>CONTENT</h2>
               </div>
               <p>
                 In publishing, art, and communication, contenters is the
@@ -354,19 +377,18 @@ export default function Domain() {
                   alt="domain-img"
                 />
               </i>
-              <h3>SOCIAL WORK</h3>
+              <h3>LEADERSHIP</h3>
             </div>
             <div className="contenters">
               <div className="heading">
-                <h2>SOCIAL WORK</h2>
+                <h2>LEADERSHIP</h2>
               </div>
               <p>
-                Social work is an academic discipline and practice-based
-                profession that concerns itself with individuals, families,
-                groups, communities, and society as a whole in an effort to meet
-                basic needs and enhance social functioning, self-determination,
-                collective responsibility, optimal health, and overall
-                well-being.
+                Leadership is a multifaceted concept and a practical skillset
+                that revolves around guiding individuals, teams, organizations,
+                and societies towards achieving common goals while fostering
+                personal growth, shared accountability, effective
+                decision-making, and the overall prosperity of the collective.
               </p>
             </div>
           </div>

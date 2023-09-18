@@ -1,86 +1,88 @@
 import React from "react";
 import TeamMember from "../components/tteamsmember";
+import Typewriter from "typewriter-effect";
 
 const Members = () => {
   const teamMembers = [
     {
-      name: "Luna Turner",
-      role: "Founder",
-      imageSrc: "../assets/images/img_1.jpg",
+      name: "Vedant Solunke",
+      role: "Web Team",
+      imageSrc: "VedantSolunke.png",
       social: {
-        twitter: "https://twitter.com/luna_turner",
-        linkedin: "https://www.linkedin.com/in/luna_turner",
-        github: "https://github.com/luna_turner",
-        email: "mailto:luna@example.com",
+        // twitter: "https://twitter.com/VedantSolunke",
+        linkedin: "https://www.linkedin.com/in/vedantsolunke/",
+        github: "https://github.com/VedantSolunke",
+        email: "mailto:vedsocialid@gmail.com",
       },
     },
 
     {
-      name: "Luna Turner",
-      role: "Founder",
-      imageSrc: "profile-img-1.png",
+      name: "Vaibhav Patil",
+      role: "Web Team",
+      imageSrc: "VaibhavPatil.jpeg",
       social: {
-        twitter: "https://twitter.com/luna_turner",
-        linkedin: "https://www.linkedin.com/in/luna_turner",
-        github: "https://github.com/luna_turner",
-        email: "mailto:luna@example.com",
+        linkedin: "https://www.linkedin.com/in/vaibhavpatil687/",
+        github: "https://github.com/coolvaibhavpatil",
+        email: "vaibhavpatilsmile687@gmail.com",
       },
     },
 
     {
-      name: "Luna Turner",
-      role: "Founder",
-      imageSrc: "profile-img-1.png",
+      name: "Pranav Dalvi",
+      role: "Web Team",
+      imageSrc: "PranavDalvi.jpeg",
       social: {
-        twitter: "https://twitter.com/luna_turner",
-        linkedin: "https://www.linkedin.com/in/luna_turner",
-        github: "https://github.com/luna_turner",
-        email: "mailto:luna@example.com",
+        linkedin: "https://www.linkedin.com/in/pranav-dalvi-26a37322a/",
+        github: "https://github.com/pranavdalvi2003",
+        email: "pranavdalvi2003@gmail.com",
       },
     },
 
     {
-      name: "Luna Turner",
-      role: "Founder",
-      imageSrc: "profile-img-1.png",
+      name: "Manav Mehta",
+      role: "Web Team",
+      imageSrc: "ManavMehta.jpeg",
       social: {
-        twitter: "https://twitter.com/luna_turner",
-        linkedin: "https://www.linkedin.com/in/luna_turner",
-        github: "https://github.com/luna_turner",
-        email: "mailto:luna@example.com",
+        linkedin: "https://www.linkedin.com/in/manav-mehta-05480622a/",
+        github: "https://github.com/Manav2031",
+        email: "manavmehta2031@gmail.com",
       },
     },
     {
-      name: "Luna Turner",
-      role: "Founder",
-      imageSrc: "profile-img-1.png",
+      name: "Sarvadnyaa Barate",
+      role: "Web Team",
+      imageSrc: "SarvadnyaaBarate.jpeg",
       social: {
-        twitter: "https://twitter.com/luna_turner",
-        linkedin: "https://www.linkedin.com/in/luna_turner",
-        github: "https://github.com/luna_turner",
-        email: "mailto:luna@example.com",
+        linkedin: "https://www.linkedin.com/in/sarvadnyaa-barate-816574254/",
+        github: "https://github.com/SAR-BAR",
+        email: "sarvaabarate@gmail.com",
       },
     },
     {
-      name: "Luna Turner",
-      role: "Founder",
-      imageSrc: "profile-img-1.png",
+      name: "Janvi",
+      role: "Web Team",
+      imageSrc: "Janvi.jpeg",
       social: {
-        twitter: "https://twitter.com/luna_turner",
-        linkedin: "https://www.linkedin.com/in/luna_turner",
-        github: "https://github.com/luna_turner",
-        email: "mailto:luna@example.com",
+        linkedin: "http://www.linkedin.com/in/janvipict2025",
+        github: "https://github.com/janvi2208",
+        email: "janvi220803@gmail.com",
       },
     },
     // ...other team members
   ];
 
   return (
-    <div className="bg-[#020617]">
+    <div className="bg-[#000000]">
       <div className="py-8 px-4">
         <div className="flex flex-col items-center mb-8">
-          <h1 className="lg:text-5xl  md:text-3xl text-3xl font-bold text-white">
-            Developer Team
+          <h1 className="lg:text-5xl  md:text-3xl text-3xl  font-bold text-white">
+            <Typewriter
+              options={{
+                strings: ["DEVELOPER TEAM"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
         </div>
         <div className="flex flex-col md:flex-row flex-wrap">

@@ -10,6 +10,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+import { GrMail } from "react-icons/gr";
 const Footer = () => {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
@@ -19,9 +20,7 @@ const Footer = () => {
   return (
     <div className="max-w-full mx-auto py-16 md:px-40 px-6 grid lg:grid-cols-3 gap-8 text-gray-300 bg-black">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#01a9e2]">
-          📍 Address.
-        </h1>
+        <h1 className="w-full text-3xl font-bold text-[#01a9e2]">📍 Address</h1>
         <p className="py-4">
           Survey No. 27, Near Trimurti Chowk, Bharati Vidyapeeth Campus,
           Dhankawadi, Pune, Maharashtra, 411043
@@ -50,10 +49,12 @@ const Footer = () => {
             />
           </a>
 
-          <FaTwitterSquare
-            size={30}
-            className=" hover:scale-110 hover:text-amber-500"
-          />
+          <a href="mailto:pcsb@pict.edu" target="_blank">
+            <GrMail
+              size={30}
+              className=" hover:scale-110 hover:text-amber-500"
+            />
+          </a>
           {/* <FaGithubSquare size={30} />
           <FaDribbbleSquare size={30} /> */}
         </div>
@@ -61,40 +62,43 @@ const Footer = () => {
       <div className="lg:col-span-2 flex justify-between mt-6">
         <div>
           <ul>
-            <li className="py-2 text-sm">
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
               <a href="/"> Home</a>
             </li>
-            <li className="py-2 text-sm">
-              {" "}
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
               <a href="/about"> About</a>
             </li>
-            <li className="py-2 text-sm">Events</li>
-            <li className="py-2 text-sm">
-              {" "}
-              <a href="/team">Team</a>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <a href="/events">Events</a>
             </li>
           </ul>
         </div>
         <div>
           <ul>
-            <li className="py-2 text-sm">
-              {" "}
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <a href="/gallery"> Team</a>
+            </li>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
               <a href="/gallery"> Gallery</a>
             </li>
-            <li className="py-2 text-sm">Domains</li>
-            <li className="py-2 text-sm">Email</li>
-            <a href="/members">
-              {" "}
-              <li className="py-2 text-sm">Developers</li>
-            </a>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <a href="/domain">Domains</a>
+            </li>
           </ul>
         </div>
         <div>
           <ul>
-            <li className="py-2 text-sm">About</li>
-            <li className="py-2 text-sm">Blog</li>
-            <li className="py-2 text-sm">Jobs</li>
-            <li className="py-2 text-sm">Press</li>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              Register
+            </li>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <a href="mailto:pcsb@pict.edu">Email</a>
+            </li>
+            <a href="/members">
+              <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+                Developers
+              </li>
+            </a>
           </ul>
         </div>
       </div>

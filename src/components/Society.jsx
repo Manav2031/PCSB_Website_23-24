@@ -8,8 +8,8 @@ const Society = () => {
         <div className="py-20 mx-8 text-center lg:text-left text-white">
           <h1 className=" text-5xl text-amber-50">Computer Society of India</h1>
           <p className="mt-8 mb-16">
-            dcsaLorem Ipsumndard ed it to makefive centuries, but also the leap
-            into electronic typesetting, remaining essentially u bjldcbnbds
+            CSI has 72 chapters all over India, 511 student branches, and more
+            than 100000 members
           </p>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
             {/* left */}

@@ -1,13 +1,13 @@
 import React from "react";
-import fImage from "../assets/images/GroupPhoto.png";
+import fImage from "../assets/images/NewGroupPhoto.jpeg";
 const Family = () => {
   return (
     <div className="max-w-screen-xl mx-auto h-fit bg-[#020617]">
       <div className="my-32 mx-8 text-center md:text-left text-white">
         <h1 className="text-5xl">Our Family</h1>
         <p className="mt-8 mb-16">
-          Lorem Ipsumndard ed it to makefive centuries, but also the leap into
-          electronic typesetting, remaining essentially u
+          PCSB is proud to announce that it is a family of 1100+ members and is
+          growing at an exponential rate
         </p>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
           {/* left */}

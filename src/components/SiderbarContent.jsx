@@ -43,21 +43,21 @@ const SidebarContent = () => {
   ];
   const teamMemberData = {
     Coordinators: [
-      {
-        name: "Prof. Kaustubh Sakhare",
-        role: "Guide",
-        image: "TeamsImg/Advait_Naik.png", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaLinkedin />,
-          },
-        ],
-      },
+      // {
+      //   name: "Prof. Kaustubh Sakhare",
+      //   role: "Guide",
+      //   image: "TeamsImg/Advait_Naik.png", // Provide the image URL
+      //   socialLinks: [
+      //     {
+      //       url: "https://linkedin.com/in/johndoe",
+      //       icon: <FaLinkedin />,
+      //     },
+      //   ],
+      // },
       {
         name: "Dr. Girish Potdar",
         role: "Branch Coordinator",
-        image: "logo512.png", // Provide the image URL
+        image: "GirishPotdar.JPG", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -68,7 +68,7 @@ const SidebarContent = () => {
       {
         name: "Prof. Ashwini Bundele",
         role: "Guide",
-        image: "logo512.png", // Provide the image URL
+        image: "AshwiniBundele.jpg", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -81,7 +81,7 @@ const SidebarContent = () => {
       {
         name: "Samyak Jain",
         role: "Chairperson",
-        image: "TeamsImg/Samyak_Jain_Vice Chairperson.jpeg", // Provide the image URL
+        image: "TeamsImg/Samyak_Jain_New.jpeg", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -97,7 +97,7 @@ const SidebarContent = () => {
       {
         name: "Soham Badjate",
         role: "Vice Chairperson",
-        image: "TeamsImg/Soham_Badjate_Vice_Chairperson.jpg", // Provide the image URL
+        image: "TeamsImg/SohamBadjate.png", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -182,7 +182,7 @@ const SidebarContent = () => {
       {
         name: "Raj Shende",
         role: "Web Head",
-        image: "", // Provide the image URL
+        image: "TeamsImg/RajShende.jpeg", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -248,7 +248,7 @@ const SidebarContent = () => {
       {
         name: "Anand Bhalerao",
         role: "App Head",
-        image: "", // Provide the image URL
+        image: "TeamsImg/AnandBhalerao.png", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -298,7 +298,7 @@ const SidebarContent = () => {
       {
         name: "Atharva Nagmoti",
         role: "Machine Learning Head",
-        image: "TeamsImg/Atharva_Nagmoti_MLHead.jpeg", // Provide the image URL
+        image: "TeamsImg/AtharvaNagmoti.png", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -348,7 +348,7 @@ const SidebarContent = () => {
       {
         name: "Anurag Singh",
         role: "Blockchain Head",
-        image: "", // Provide the image URL
+        image: "TeamsImg/AnurgSingh.jpeg", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -466,7 +466,7 @@ const SidebarContent = () => {
       {
         name: "Nimish Sanghavi",
         role: "Joint Secretary (Design)",
-        image: "TeamsImg/Nimish_Sanghavi_Joint _Secretary.jpg", // Provide the image URL
+        image: "TeamsImg/NimishSanghavi.png", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -482,7 +482,7 @@ const SidebarContent = () => {
       {
         name: "Nehal Baviskar",
         role: "Design Head",
-        image: "TeamsImg/Nehal_Baviskar_Design_Head.PNG", // Provide the image URL
+        image: "TeamsImg/NehalBaviskar.png", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -596,7 +596,7 @@ const SidebarContent = () => {
       {
         name: "Atharv Dhup",
         role: "Event Coordinator",
-        image: "", // Provide the image URL
+        image: "TeamsImg/AtharvDhup.png", // Provide the image URL
         socialLinks: [
           {
             url: "https://linkedin.com/in/johndoe",
@@ -870,7 +870,7 @@ const SidebarContent = () => {
         </div>
         <div className="content  ">
           {teamMemberData[activeButton].map((member, index) => (
-            <div className="p-6">
+            <div className="pl-6 pr-6">
               {" "}
               <TeamMemberCard
                 key={index}

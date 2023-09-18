@@ -82,9 +82,11 @@ const Hero = () => {
         <p className="md:text-3xl text-xl font-bold text-gray-500 mt-10">
           Unleash Your Potential with Us 🚀
         </p>
-        <button className="bg-[#01a9e2] w-[200px] rounded-md font-bold tracking-wider my-10 mx-auto py-3 text-white duration-300 hover:scale-110">
-          Join Us
-        </button>
+        <a href="https://forms.gle/Z6rADdTNkJsuSsfaA" target="_blank">
+          <button className="bg-[#01a9e2] w-[200px] rounded-md font-bold tracking-wider my-10 mx-auto py-3 text-white duration-300 hover:scale-110">
+            Join Us
+          </button>
+        </a>
       </div>
       <hr className="opacity-40" />
     </div>
