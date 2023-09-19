@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+body,
+h1,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 .head {
   position: relative;
   color: blue;
@@ -12,7 +26,6 @@
   white-space: nowrap;
   border-right: 4px solid rgb(255, 255, 255);
   animation: animate 8s linear infinite;
-  /* filter: drop-shadow(0 0 20px rgb(255, 255, 255)); */
 }
 
 @keyframes animate {
@@ -353,28 +366,6 @@
     font-size: 15px;
   }
 }
-
-/* @media screen and (min-width: 992px) {
-  .containerrr {
-    width: 100%;
-    flex-direction: row;
-  }
-
-  .containerrr .serviceBox {
-    width: calc(33.33% - 50px);
-  }
-}
-@media screen and (min-width: 992px) {
-  .containerrr {
-    width: 100%;
-    flex-direction: row;
-  }
-
-  .containerrr .serviceBox {
-    width: calc(33.33% - 50px);
-    height: auto;
-  }
-} */
 
 /* Add a new container for hover effect */
 .containerrr .serviceBox .hover-container {

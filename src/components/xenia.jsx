@@ -58,7 +58,7 @@ export default function Xenia() {
   return (
     <div className=" py-3 flex justify-center">
       <div className=" xeniacard xenia flex flex-col mx-4 sm:mx-16 md:mx-24 lg:mx-64  px-10 py-10 rounded-lg bg-color wide1 ">
-        <div className="text-center font-semibold text-7xl  md:text-7xl lg:text-7xl bg-color1 ">
+        <div className="text-center fffont font-semibold text-7xl  md:text-7xl lg:text-7xl bg-color1 ">
           <Typewriter
             options={{
               strings: ["XENIA"],

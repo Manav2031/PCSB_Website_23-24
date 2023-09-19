@@ -34,19 +34,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Members |  447",
+    title: "Members |  1081",
     icon: members,
   },
   {
-    title: "Computer Engineering |  181",
+    title: "Computer Engineering |  467",
     icon: computer,
   },
   {
-    title: "Electronics Engineering |  121",
+    title: "Electronics Engineering |  331",
     icon: cpu,
   },
   {
-    title: "Information Technology |  139",
+    title: "Information Technology |  283",
     icon: IT,
   },
   {

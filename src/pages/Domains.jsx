@@ -33,7 +33,7 @@ export default function Domain() {
               <i className="img_heading">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/webdev.svg"
+                  src="DomainSVG/webdev.svg"
                   alt="domain-img"
                 />
               </i>
@@ -58,7 +58,7 @@ export default function Domain() {
               <i className="fas fa-search">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/appdev.svg"
+                  src="DomainSVG/appdev.svg"
                   alt="domain-img"
                 />
               </i>
@@ -81,7 +81,7 @@ export default function Domain() {
               <i className="fas fa-chart-bar">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/machinelearning.svg"
+                  src="DomainSVG/machinelearning.svg"
                   alt="domain-img"
                   height="10px"
                 />
@@ -104,7 +104,7 @@ export default function Domain() {
               <i className="fas fa-video">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/blockchain.svg"
+                  src="DomainSVG/blockchain.svg"
                   alt="domain-img"
                 />
               </i>
@@ -127,7 +127,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/cybersecurity.svg"
+                  src="DomainSVG/cybersecurity.svg"
                   alt="domain-img"
                 />
               </i>
@@ -151,7 +151,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/cp.svg"
+                  src="DomainSVG/cp.svg"
                   alt="domain-img"
                 />
               </i>
@@ -173,7 +173,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/cp.svg"
+                  src="DomainSVG/cp.svg"
                   alt="domain-img"
                 />
               </i>
@@ -196,7 +196,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/cloudcomputing.svg"
+                  src="DomainSVG/cloudcomputing.svg"
                   alt="domain-img"
                 />
               </i>
@@ -234,7 +234,7 @@ export default function Domain() {
               <i className="img_heading">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/finance.svg"
+                  src="DomainSVG/finance.svg"
                   alt="domain-img"
                 />
               </i>
@@ -259,7 +259,7 @@ export default function Domain() {
               <i className="fas fa-search">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/bussiness.svg"
+                  src="DomainSVG/bussiness.svg"
                   alt="domain-img"
                 />
               </i>
@@ -281,7 +281,7 @@ export default function Domain() {
               <i className="fas fa-chart-bar">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/design.svg"
+                  src="DomainSVG/design.svg"
                   alt="domain-img"
                 />
               </i>
@@ -304,7 +304,7 @@ export default function Domain() {
               <i className="fas fa-video">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/content.svg"
+                  src="DomainSVG/content.svg"
                   alt="domain-img"
                 />
               </i>
@@ -327,7 +327,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/marketing.svg"
+                  src="DomainSVG/marketing.svg"
                   alt="domain-img"
                 />
               </i>
@@ -350,7 +350,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/eventmanagement.svg"
+                  src="DomainSVG/eventmanagement.svg"
                   alt="domain-img"
                 />
               </i>
@@ -373,7 +373,7 @@ export default function Domain() {
               <i className="fas fa-gamepad">
                 <img
                   className="domain-img"
-                  src="https://www.pictcsi.com/assets/socialworks.svg"
+                  src="DomainSVG/socialworks.svg"
                   alt="domain-img"
                 />
               </i>
