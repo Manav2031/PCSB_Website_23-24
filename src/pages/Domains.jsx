@@ -5,7 +5,7 @@ export default function Domain() {
   return (
     <div className="domains ">
       <div className="heading flex items-center justify-center h-32 sm:h-48 bg-slate-950">
-        <div className="heading-text sm:text-8xl text-5xl font-bold">
+        <div className="heading-text sm:text-7xl text-4xl font-bold">
           <div className="dom">
             <h1
               className=" head md:text-6xl text-4xl"
@@ -16,13 +16,13 @@ export default function Domain() {
           </div>
         </div>
       </div>
-      <div className="sub-domain flex items-center justify-center h-24 sm:h-32 md:h-40 lg:h-48 bg-slate-900">
-        <div className="technical-text text-white text-4xl sm:text-5xl font-bold ">
+      <div className="sub-domain flex items-center justify-center h-16 sm:h-24 md:h-32 lg:h-40 bg-slate-900">
+        <div className="technical-text text-white text-2xl sm:text-4xl font-bold">
           <h1
-            className=" head md:text-5xl text-3xl"
+            className="head text-center"
             data-text="&nbsp;TECHNICAL DOMAINS&nbsp;"
           >
-            &nbsp;TECHNICAL DOMAINS &nbsp;
+            &nbsp;TECHNICAL DOMAINS&nbsp;
           </h1>
         </div>
       </div>
@@ -216,13 +216,13 @@ export default function Domain() {
         </div>
       </div>
 
-      <div className="sub-domain flex items-center justify-center h-24 sm:h-32 md:h-40 lg:h-48 bg-slate-900">
-        <div className="technical-text text-white text-4xl sm:text-5xl font-bold ">
+      <div className="sub-domain flex items-center justify-center h-16 sm:h-24 md:h-32 lg:h-40 bg-slate-900">
+        <div className="technical-text text-white text-2xl sm:text-4xl font-bold">
           <h1
-            className=" head text-center"
+            className="head text-center"
             data-text="&nbsp;NON-TECHNICAL DOMAINS&nbsp;"
           >
-            &nbsp;NON-TECHNICAL DOMAINS &nbsp;
+            &nbsp;NON-TECHNICAL DOMAINS&nbsp;
           </h1>
         </div>
       </div>
