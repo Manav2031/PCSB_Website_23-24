@@ -27,7 +27,7 @@ const Hero = () => {
           Unleash Your Potential with Us 🚀
         </p>
         <div>
-          <a href="https://forms.gle/Z6rADdTNkJsuSsfaA" target="_blank">
+          <a href="http://pcsb-registrations.tk/" target="_blank">
             <button className="bg-[#01a9e2] w-[200px] rounded-md font-bold tracking-wider my-10 mx-auto py-3 text-white duration-300 hover:scale-110">
               Join Us
             </button>
