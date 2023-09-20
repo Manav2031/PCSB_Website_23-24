@@ -89,7 +89,9 @@ const Footer = () => {
         <div>
           <ul>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              Register
+              <a href="http://pcsb-registrations.tk/" target="_blank">
+                Register
+              </a>
             </li>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
               <a href="mailto:pcsb@pict.edu">Email</a>
