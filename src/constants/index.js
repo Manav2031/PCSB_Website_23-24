@@ -117,7 +117,7 @@ const projects = [
     source_code_link: "https://www.linkedin.com/in/ashwini-jewalikar-20541b79/",
   },
   {
-    name: "Kavita Sultanpure",
+    name: "Prof Girish Potdar",
     description: "IT Department",
     tags: [
       {
@@ -125,8 +125,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: kavita_maam,
-    source_code_link: "https://www.linkedin.com/in/drkavitasultanpure/",
+    image: "GirishPotdar.JPG",
+    source_code_link: "https://in.linkedin.com/in/dr-girish-potdar-a67b7116",
   },
   // {
   //   name: "Kaustubh Sakhare",
